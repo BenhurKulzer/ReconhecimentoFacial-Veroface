@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Veroface - A drove é você!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=940">
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,700italic,900">
+    <!--[if lt IE 9]><link rel="stylesheet" href="styles/fonts.css"><![endif]-->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+
+<body>
+    <div id="skiplinks">
+        <a href="#nav">Pular para a navegação</a>
+        <a href="#content">Pular para o conteúdo</a>
+    </div>  
+
+    <nav>
+		<header class="header" role="banner">
+        <hgroup class="logo">
+            <h1 class="veroface"><a href="#home">Veroface</a></h1>            
+        </hgroup>
+		</header>
+        <div class="wrapper">
+            <ul id="nav" role="navigation">
+                <li><a href="index.html#home" class="home">Seção inicial</a></li>
+                <li><a href="index.html#conceito-veroface" class="uses">Conceito</a></li>
+                <li><a href="index.html#produto-veroface" class="produto-veroface">Produto</a></li>
+                <li><a href="index.html#contato-veroface" class="production">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+	
+    <div id="content">
+        <section id="home" class="section-home">
+			<div style="background: url(images/sections/home-teste.png) center no-repeat;width: 1100px;height: 600px;margin: 60px auto 0 auto;">
+			 <video id="videoElement" autoplay></video>
+				<button id="snap">Capture</button>
+				<button id="new">New</button>
+				<canvas id="canvas" width="640" height="480" style="float: right;margin-top: 80px;"></canvas>
+				<button id="upload" style="float: right;
+margin-top: 120px;
+position: relative;
+z-index: 2;
+margin-right: -600px;cursor: pointer;">Upload</button>
+			</div>
+        </section>	
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+	<script src="scripts/demo.js"></script>	
+</body>
+</html>
